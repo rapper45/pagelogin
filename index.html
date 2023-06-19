@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="july18.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In page</title>
+</head>
+<style>
+   *{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+
+    display: flex;
+
+    justify-content: center;
+}
+.outter{
+    /* border: 2px solid black; */
+    height: 330px;
+    width: 300px;
+    
+    box-shadow:  5px 5px 5px whitesmoke,-5px -5px 5px whitesmoke;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+ position: absolute;
+top: 50px;
+transform: skew(-10deg);
+
+}
+.outter:hover{
+    transform: skew(0deg);
+    font-family: 'Pacifico', cursive;
+font-family: 'Tilt Prism', cursive;
+  
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h1 {
+    
+   font-size: 40px;
+    margin-bottom: 5px;
+    font-family: 'Hind', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Tilt Prism', cursive;
+
+
+}
+.main h1 p{
+    margin:  5px 0px ;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+  input{
+    padding: 5px 5px ;
+    position: relative;
+    
+    margin-bottom: 20px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+</style>
+<body> 
+    <div class="outter">
+     <div class="main">
+        <h1>Sign Up</h1>
+        <p>Already have an account ?</p>
+        <a href="#">Log In</a>
+     </div>
+    
+     <form action="">
+        <input type="email" placeholder="Email" required>
+        <input type="email" name="" id="" placeholder="Type your email again" required>
+        <input type="password" placeholder="Choose a password" required>
+     </form>
+  <button>Sign Up</button>
+  
+</body>
+</html>
